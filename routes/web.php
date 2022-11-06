@@ -33,7 +33,7 @@ Route::post('/post', [\App\Http\Controllers\Post\IndexController::class, 'index'
 ->name('post.myPage'); 
 Route::post('/create', \App\Http\Controllers\Post\CreateController::class)
 ->name('post.create');
-Route::post('/post', \App\Http\Controllers\Post\SearchController::class)
+Route::get('/post/search', \App\Http\Controllers\Post\SearchController::class)
 ->name('post.search');
 Route::post('/like/{postId}', [\App\Http\Controllers\Post\IndexController::class, 'store'])
 ->name('post.likes');
