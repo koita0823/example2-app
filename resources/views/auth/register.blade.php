@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-layout title="TOP | NikoLog"> 
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -61,4 +61,4 @@
             </div>
         </form>
     </x-auth-card>
-</x-guest-layout>
+</x-layout>
