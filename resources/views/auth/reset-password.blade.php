@@ -1,9 +1,9 @@
 <x-layout title="TOP | NikoLog"> 
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
+            <h2 class="text-center text-blue-500 text-4xl font-bold mt-8 mb-8">
+                NikoLog
+            </h2>
         </x-slot>
 
         <form method="POST" action="{{ route('password.update') }}">
