@@ -23,9 +23,15 @@ class DeleteTest extends TestCase
     {
         $user = User::factory()->create();
 
-        
+        $feeling = Feeling::factory()->create();
 
-        $post = Post::factory()->create();
+        $about = About::factory()->create();
+
+        $post = Post::factory()->create([
+            'user_id' => $user->id, 
+            'feeling_id' => $feeling->id,
+            'about_id' => $about->id
+        ]);
 
         $this->actingAs($user);
 
