@@ -1,4 +1,4 @@
-name: NikoLog
+name: Laravel
 
 on:
   push:
