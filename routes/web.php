@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 }); 
 Route::get('/post', function () {
-    return view('post.myPage');
+    return view('post.index');
 });  
 Route::get('/create', function() {
     return view('post.post');
