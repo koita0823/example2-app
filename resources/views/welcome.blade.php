@@ -3,8 +3,6 @@
     <h2 class="text-center text-blue-500 text-4xl font-bold mt-8 mb-8">
         NikoLog
     </h2>
-    <p>User Name → </p>
-    <p>password →</p>
     @guest 
     <div class="flex flex-wrap justify-center">
         <div class="w-1/2 p-4 flex flex-wrap justify-evenly">
