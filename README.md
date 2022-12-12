@@ -1,8 +1,11 @@
 名前
 NikoLog
 
-##　概要
+テストユーザー
+・メールアドレス：info@example.com
+・パスワード：password
 
+概要
 ・感情記録アプリ
 
 機能
