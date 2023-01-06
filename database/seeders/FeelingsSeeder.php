@@ -37,6 +37,7 @@ class FeelingsSeeder extends Seeder
             ['id' => 18, 'name' => '怖い'],
             ['id' => 19, 'name' => 'イライラ'],
             ['id' => 20, 'name' => '怒り'],
+            ['id' => 21, 'name' => 'その他'],
           
         ];
         DB::table('feelings')->insert($params);
