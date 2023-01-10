@@ -21,4 +21,4 @@ NikoLog
 作成者 小板橋　竜樹
 E-mail　koitabashi18@yahoo.co.jp
 ライセンス
-"NikoLog" is under MIT license.
+<!-- "NikoLog" is under MIT license. -->
