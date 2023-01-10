@@ -29,7 +29,7 @@
                                 @if (!Auth::user()->is_like($post->id))
                                 <form action="{{ route('post.likes', $post) }}" method="post">
                                 @csrf
-                                    <button onclick="like({{$post->id}})" class="bg-teal-700">
+                                    <button onclick="like({{$post->id}})">
                                         いいね
                                     </button>
                                 </form>
@@ -37,7 +37,7 @@
                                 <form action="{{ route('post.unlike', $post) }}" method="post">
                                 @csrf
                                 @method('DELETE')
-                                    <button onclick="unlike({{$post->id}})" class="bg-teal-700">
+                                    <button onclick="unlike({{$post->id}})">
                                         いいね解除
                                     </button>
                                 </form>
